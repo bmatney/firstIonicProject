@@ -7953,8 +7953,8 @@ input[type="checkbox"][readonly] {
 .checkbox input,
 .checkbox-icon {
   position: relative;
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
   display: block;
   border: 0;
   background: transparent;
