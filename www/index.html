@@ -46,7 +46,7 @@
             <div class="item tabs tabs-secondary tabs-icon-left">
                 <span class="checkbox">
                     <label class="checkbox">
-                        <input type="checkbox" ng-model="task.completed" ng-click="completeTask($index)">
+                        <input type="checkbox" ng-model="task.completed" ng-click="completeTask($index); removeTask($index)">
                     </label>
                 </span>
                 <a class="tab-item assertive" ng-click="removeTask($index)">
